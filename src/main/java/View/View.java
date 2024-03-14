@@ -1,4 +1,6 @@
-package exposeRust;
+package View;
+
+import ViewModel.ViewModel;
 
 public class View {
 	private ViewModel viewModel;

@@ -1,5 +1,9 @@
 package exposeRust;
 
+import Model.Model;
+import View.View;
+import ViewModel.ViewModel;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -11,7 +15,7 @@ public class Main {
 		
 		view.displayData(viewModel.getData());
 		
-		view.changeData(666);
+		view.changeData(665);
 		
 		
 	}

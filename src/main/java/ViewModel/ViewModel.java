@@ -1,4 +1,6 @@
-package exposeRust;
+package ViewModel;
+
+import Model.Model;
 
 public class ViewModel {
 	private Model model;
