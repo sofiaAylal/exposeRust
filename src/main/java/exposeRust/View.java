@@ -11,5 +11,8 @@ public class View {
 		System.out.println("Donnée affichées dans la vue : " + data);
 	}
 
-
+	public void changeData(int data) {
+		viewModel.updateData(data);
+		displayData(viewModel.getData());
+	}
 }
