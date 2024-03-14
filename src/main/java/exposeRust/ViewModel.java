@@ -10,5 +10,9 @@ public class ViewModel {
 	public void updateData(int data) {
 		model.setData(data);
 	}
+	
+	public int getData() {
+		return model.getData();
+	}
 
 }
