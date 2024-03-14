@@ -6,5 +6,10 @@ public class View {
 	public View(ViewModel viewModel) {
 		this.viewModel = viewModel;
 	}
+	
+	public void displayData(int data) {
+		System.out.println("Donnée affichées dans la vue : " + data);
+	}
+
 
 }
